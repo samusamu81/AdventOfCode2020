@@ -14,4 +14,211 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\AoC20.hpp">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MD5.hpp">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\nDim_string.hpp">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\smmComplex.hpp">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\smmComuni.hpp">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\smmConsts.hpp">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\smmMatrix.hpp">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\smmPuzzle.hpp">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="src\smmTile.hpp">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AoC1_20.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AoC2_20.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AoC3_20.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AoC4_20.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AoC5_20.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AoC6_20.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AoC7_20.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AoC8_20.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AoC9_20.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AoC10_20.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AoC11_20.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AoC12_20.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AoC13_20.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AoC14_20.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AoC15_20.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AoC16_20.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AoC17_20.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AoC18_20.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AoC19_20.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AoC20_20.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AoC21_20.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AoC22_20.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AoC23_20.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AoC24_20.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AoC25_20.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main_AoC20.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MD5.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\smmComplex.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\smmComuni.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\smmConsts.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\smmMatrix.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\smmPuzzle.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TreD_string.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input\SeaMonster.txt">
+      <Filter>File di risorse</Filter>
+    </Text>
+    <Text Include="input\Test1_15.txt">
+      <Filter>File di risorse</Filter>
+    </Text>
+    <Text Include="input\Test1_20.txt">
+      <Filter>File di risorse</Filter>
+    </Text>
+    <Text Include="input\Test2_20.txt">
+      <Filter>File di risorse</Filter>
+    </Text>
+    <Text Include="input\Test3_20.txt">
+      <Filter>File di risorse</Filter>
+    </Text>
+    <Text Include="input\Test4_20.txt">
+      <Filter>File di risorse</Filter>
+    </Text>
+    <Text Include="input\Test5_20.txt">
+      <Filter>File di risorse</Filter>
+    </Text>
+    <Text Include="input\Test6_20.txt">
+      <Filter>File di risorse</Filter>
+    </Text>
+    <Text Include="input\Test7_20.txt">
+      <Filter>File di risorse</Filter>
+    </Text>
+    <Text Include="input\Test8_20.txt">
+      <Filter>File di risorse</Filter>
+    </Text>
+    <Text Include="input\Test9_20.txt">
+      <Filter>File di risorse</Filter>
+    </Text>
+    <Text Include="input\Test10_20.txt">
+      <Filter>File di risorse</Filter>
+    </Text>
+    <Text Include="input\Test11_20.txt">
+      <Filter>File di risorse</Filter>
+    </Text>
+    <Text Include="input\Test12_20.txt">
+      <Filter>File di risorse</Filter>
+    </Text>
+    <Text Include="input\Test13_20.txt">
+      <Filter>File di risorse</Filter>
+    </Text>
+    <Text Include="input\Test14_20.txt">
+      <Filter>File di risorse</Filter>
+    </Text>
+    <Text Include="input\Test15_20.txt">
+      <Filter>File di risorse</Filter>
+    </Text>
+    <Text Include="input\Test16_20.txt">
+      <Filter>File di risorse</Filter>
+    </Text>
+    <Text Include="input\Test17_20.txt">
+      <Filter>File di risorse</Filter>
+    </Text>
+    <Text Include="input\Test18_20.txt">
+      <Filter>File di risorse</Filter>
+    </Text>
+    <Text Include="input\Test19_20.txt">
+      <Filter>File di risorse</Filter>
+    </Text>
+    <Text Include="input\Test20_20.txt">
+      <Filter>File di risorse</Filter>
+    </Text>
+    <Text Include="input\Test21_20.txt">
+      <Filter>File di risorse</Filter>
+    </Text>
+    <Text Include="input\Test22_20.txt">
+      <Filter>File di risorse</Filter>
+    </Text>
+    <Text Include="input\Test24_20.txt">
+      <Filter>File di risorse</Filter>
+    </Text>
+  </ItemGroup>
 </Project>
