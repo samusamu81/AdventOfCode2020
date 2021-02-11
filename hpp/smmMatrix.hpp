@@ -32,6 +32,7 @@ public:
 	size_t const howMany(tipo equal2Me) const;
 	size_t const howManyInRow(size_t r, tipo equal2Me) const;
 	size_t const howManyInCol(size_t c, tipo equal2Me) const;
+	size_t const howManyInSubMatr(size_t row_start, size_t col_start, size_t numRows, size_t numCols, tipo equal2Me) const;
 	smmMatrix<tipo> const SubMatrix(size_t row_start, size_t col_start, size_t numRows, size_t numCols) const;
 	//size_t const howManySubMatrix(smmMatrix<tipo> const& look4me);
 	smmMatrix<tipo> const  FindNonEmptyInDirections(size_t row_pos, size_t col_pos, tipo empty) const;
@@ -195,6 +196,28 @@ inline size_t const smmMatrix<tipo>::howManyInCol(size_t c, tipo equal2Me) const
 {
 	std::vector<tipo> v = this->getCol(c);
 	return std::count(v.begin(), v.end(), equal2Me);
+}
+
+template<class tipo>
+inline size_t const smmMatrix<tipo>::howManyInSubMatr(size_t row_start, size_t col_start, size_t numRows, size_t numCols, tipo equal2Me) const
+{
+	size_t myAnsw = 0, i, j;
+	if (isTransposed)
+	{
+		isTransposed = false;
+		myAnsw = howManyInSubMatr(col_start, row_start, numCols, numRows, equal2Me);
+		isTransposed = true;
+		return myAnsw;
+	}
+	//by definitio it is not tranposed!
+	//redefine numRows to best use of for loop
+	numRows += row_start;
+	numCols += col_start;
+	for (i = row_start; i < numRows; ++i)
+		for (j = col_start; j < numCols; ++j)
+			myAnsw += rawElement[pos_k(i, j)] == equal2Me ? 1 : 0;
+
+	return myAnsw;
 }
 
 template<class tipo>

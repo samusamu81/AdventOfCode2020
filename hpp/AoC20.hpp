@@ -20,6 +20,7 @@ std::pair<size_t, size_t> AoC08_20(std::string myFileName = ".\\inp\\Test08_20.t
 std::pair<size_t, size_t> AoC09_20(std::string myFileName = ".\\inp\\Test09_20.txt");
 std::pair<size_t, size_t> AoC10_20(std::string myFileName = ".\\inp\\Test10_20.txt");
 std::pair<size_t, size_t> AoC11_20(std::string myFileName = ".\\inp\\Test11_20.txt");
+
 std::pair<size_t, size_t> AoC12_20(std::string myFileName = ".\\inp\\Test12_20.txt");
 std::pair<size_t, size_t> AoC13_20(std::string myFileName = ".\\inp\\Test13_20.txt");
 std::pair<size_t, size_t> AoC14_20(std::string myFileName = ".\\inp\\Test14_20.txt");
