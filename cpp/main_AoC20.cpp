@@ -112,6 +112,7 @@ int main(int argc, char* argv[])
     myAnsw = AoC24_20();
     std::cout << myAnsw.first << "\t" << myAnsw.second << std::endl << std::endl;
 
+
     return 0;
 }
 
