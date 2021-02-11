@@ -2,8 +2,8 @@
 
 #include <map>
 #include <deque>
-#include "smmTile.hpp"
-#include "smmMatrix.hpp"
+#include "..\hpp\smmTile.hpp"
+#include "..\hpp\smmMatrix.hpp"
 
 class smmPuzzle
 {

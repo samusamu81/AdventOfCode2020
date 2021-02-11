@@ -1,6 +1,6 @@
 #include <map>
-#include "smmComuni.hpp"
-#include "AoC20.hpp"
+#include "..\hpp\smmComuni.hpp"
+#include "..\hpp\AoC20.hpp"
 
 
 std::pair<size_t, size_t> AoC14_20readMaskAND_OR(std::string myMask)

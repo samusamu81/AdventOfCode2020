@@ -1,9 +1,9 @@
 #include <map>
 #include <tuple>
 #include <regex>
-#include "AoC20.hpp"
-#include "smmComuni.hpp"
-#include "smmMatrix.hpp"
+#include "..\hpp\AoC20.hpp"
+#include "..\hpp\smmComuni.hpp"
+#include "..\hpp\smmMatrix.hpp"
 int AoC16_20A_IsNotValidTicket(std::vector<int> const & limits, std::vector<int> const& myTicket)
 {
 	//restutisce somma dei campi invalidi in un biglietto

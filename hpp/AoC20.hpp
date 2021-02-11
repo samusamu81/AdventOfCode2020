@@ -9,15 +9,15 @@
 
 
 
-std::pair<size_t, size_t> AoC01_20(std::string myFileName = ".\\inp\\Test1_20.txt");
-std::pair<size_t, size_t> AoC02_20(std::string myFileName = ".\\inp\\Test2_20.txt");
-std::pair<size_t, size_t> AoC03_20(std::string myFileName = ".\\inp\\Test3_20.txt");
-std::pair<size_t, size_t> AoC04_20(std::string myFileName = ".\\inp\\Test4_20.txt");
-std::pair<size_t, size_t> AoC05_20(std::string myFileName = ".\\inp\\Test5_20.txt");
-std::pair<size_t, size_t> AoC06_20(std::string myFileName = ".\\inp\\Test6_20.txt");
-std::pair<size_t, size_t> AoC07_20(std::string myFileName = ".\\inp\\Test7_20.txt");
-std::pair<size_t, size_t> AoC08_20(std::string myFileName = ".\\inp\\Test8_20.txt");
-std::pair<size_t, size_t> AoC09_20(std::string myFileName = ".\\inp\\Test9_20.txt");
+std::pair<size_t, size_t> AoC01_20(std::string myFileName = ".\\inp\\Test01_20.txt");
+std::pair<size_t, size_t> AoC02_20(std::string myFileName = ".\\inp\\Test02_20.txt");
+std::pair<size_t, size_t> AoC03_20(std::string myFileName = ".\\inp\\Test03_20.txt");
+std::pair<size_t, size_t> AoC04_20(std::string myFileName = ".\\inp\\Test04_20.txt");
+std::pair<size_t, size_t> AoC05_20(std::string myFileName = ".\\inp\\Test05_20.txt");
+std::pair<size_t, size_t> AoC06_20(std::string myFileName = ".\\inp\\Test06_20.txt");
+std::pair<size_t, size_t> AoC07_20(std::string myFileName = ".\\inp\\Test07_20.txt");
+std::pair<size_t, size_t> AoC08_20(std::string myFileName = ".\\inp\\Test08_20.txt");
+std::pair<size_t, size_t> AoC09_20(std::string myFileName = ".\\inp\\Test09_20.txt");
 std::pair<size_t, size_t> AoC10_20(std::string myFileName = ".\\inp\\Test10_20.txt");
 std::pair<size_t, size_t> AoC11_20(std::string myFileName = ".\\inp\\Test11_20.txt");
 std::pair<size_t, size_t> AoC12_20(std::string myFileName = ".\\inp\\Test12_20.txt");

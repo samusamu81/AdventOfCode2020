@@ -1,6 +1,6 @@
-#include "smmComuni.hpp"
-#include "AoC20.hpp"
-#include "smmMatrix.hpp"
+#include "..\hpp\smmComuni.hpp"
+#include "..\hpp\AoC20.hpp"
+#include "..\hpp\smmMatrix.hpp"
 
 std::pair<size_t, size_t> AoC11_20(std::string myFileName)
 {

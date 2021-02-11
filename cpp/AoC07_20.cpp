@@ -5,7 +5,7 @@
 #include <regex>
 #include <vector>
 #include <deque>
-#include "smmComuni.hpp"
+#include "..\hpp\smmComuni.hpp"
 
 size_t HowManyInsideIncludingMySelf(std::string const & outermost, std::map <std::string, std::vector<std::pair<int, std::string>>> *Structure)
 {
@@ -21,7 +21,7 @@ size_t HowManyInsideIncludingMySelf(std::string const & outermost, std::map <std
 	return myAnsw;
 }
 
-std::pair<size_t, size_t> AoC7_20(std::string myFileName)
+std::pair<size_t, size_t> AoC07_20(std::string myFileName)
 {
 	const std::string MAGIC_BAG = "shiny gold";
 	std::pair<size_t, size_t> myAnsw;

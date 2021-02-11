@@ -1,7 +1,7 @@
 #include <regex>
 #include <sstream>
-#include "AoC20.hpp"
-#include "smmComuni.hpp"
+#include "..\hpp\AoC20.hpp"
+#include "..\hpp\smmComuni.hpp"
 std::string AoC18_20_CalcNoParB(std::string str)
 {
 	std::vector<long long int> vLong;

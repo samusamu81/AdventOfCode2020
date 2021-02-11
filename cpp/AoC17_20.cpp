@@ -1,7 +1,7 @@
 #include <iostream>
-#include "AoC20.hpp"
-#include "smmComuni.hpp"
-#include "nDim_string.hpp"
+#include "..\hpp\AoC20.hpp"
+#include "..\hpp\smmComuni.hpp"
+#include "..\hpp\nDim_string.hpp"
 
 long long int AoC17_20Solver(std::set<std::string> livePos)
 {

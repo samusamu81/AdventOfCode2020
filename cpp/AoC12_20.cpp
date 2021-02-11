@@ -1,8 +1,8 @@
 #include <map>
-#include "smmComuni.hpp"
-#include "AoC20.hpp"
-#include "smmMatrix.hpp"
-#include "smmComplex.hpp"
+#include "..\hpp\smmComuni.hpp"
+#include "..\hpp\AoC20.hpp"
+#include "..\hpp\smmMatrix.hpp"
+#include "..\hpp\smmComplex.hpp"
 
 std::pair<size_t, size_t>  AoC12_20(std::string fileName)
 {

@@ -2,8 +2,8 @@
 #include <map>
 #include <string>
 #include <sstream>
-#include "smmConsts.hpp"
-#include "smmMatrix.hpp"
+#include "..\hpp\smmConsts.hpp"
+#include "..\hpp\smmMatrix.hpp"
 
 
 template <class tipo> class smmTile :

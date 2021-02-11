@@ -1,5 +1,5 @@
-#include "smmComuni.hpp"
-#include "AoC20.hpp"
+#include "..\hpp\smmComuni.hpp"
+#include "..\hpp\AoC20.hpp"
 
 std::pair<int, bool> testInfiniteAoC8_20( std::vector<std::pair<char, int>> const& parsedInput)
 {
@@ -60,7 +60,7 @@ int AoC8_20_2ndStep(std::vector<std::pair<char, int>> parsedInput)
     return answ.first;
 }
 
-std::pair<size_t, size_t> AoC8_20(std::string fileName)
+std::pair<size_t, size_t> AoC08_20(std::string fileName)
 {
     std::pair<size_t, size_t> myAnsw;
     std::ifstream myFileInp;

@@ -1,7 +1,7 @@
 #include <map>	//only for std::make_pair
 #include <algorithm>
-#include "smmComuni.hpp"
-#include "AoC20.hpp"
+#include "..\hpp\smmComuni.hpp"
+#include "..\hpp\AoC20.hpp"
 
 int str2Int(std::string s)
 {
@@ -28,7 +28,7 @@ int str2Int(std::string s)
 	return myAnsw;
 }
 
-std::pair<size_t, size_t> AoC5_20(std::string myFileName)
+std::pair<size_t, size_t> AoC05_20(std::string myFileName)
 {
 	std::vector<std::string> myTickets;
 	std::vector<int> posID;

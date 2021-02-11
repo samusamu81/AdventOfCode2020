@@ -1,6 +1,6 @@
 #include <map>
-#include "smmComuni.hpp"
-#include "AoC20.hpp"
+#include "..\hpp\smmComuni.hpp"
+#include "..\hpp\AoC20.hpp"
 
 //second
 long long int AoC13_20_2(std::multimap<int, int> BusID_rit)

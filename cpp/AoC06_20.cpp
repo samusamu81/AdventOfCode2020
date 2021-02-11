@@ -2,10 +2,10 @@
 #include <fstream>
 #include <iostream>
 
-#include "smmComuni.hpp"
-#include "AoC20.hpp"
+#include "..\hpp\smmComuni.hpp"
+#include "..\hpp\AoC20.hpp"
 
-std::pair<size_t, size_t> AoC6_20(std::string myFileName)
+std::pair<size_t, size_t> AoC06_20(std::string myFileName)
 {
 	std::stringstream ioss;
 	std::ifstream ifs(myFileName);

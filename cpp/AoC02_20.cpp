@@ -1,6 +1,6 @@
 #include <sstream>
-#include "AoC20.hpp"
-#include "smmComuni.hpp"
+#include "..\hpp\AoC20.hpp"
+#include "..\hpp\smmComuni.hpp"
 
 bool AoC2_20A_good(std::string s)
 {
@@ -27,7 +27,7 @@ bool AoC2_20B_good(std::string s)
 	return !(s.at(l) == c) != !(s.at(h) == c);
 
 }
-std::pair<size_t, size_t> AoC2_20(std::string myFileName)
+std::pair<size_t, size_t> AoC02_20(std::string myFileName)
 {
 	std::vector<std::string> myInput;
 	std::vector<std::string>::iterator  myIter;

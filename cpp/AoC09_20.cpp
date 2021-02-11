@@ -1,5 +1,5 @@
-#include "smmComuni.hpp"
-#include "AoC20.hpp"
+#include "..\hpp\smmComuni.hpp"
+#include "..\hpp\AoC20.hpp"
 
 int AoC9_20A(std::vector<int> const & fileContent)
 {
@@ -96,7 +96,7 @@ int AoC9_20B(int wanted, std::vector<int> const& fileContent)
     return l + h;
 }
 
-std::pair<size_t, size_t> AoC9_20(std::string fileName)
+std::pair<size_t, size_t> AoC09_20(std::string fileName)
 {
     std::pair<size_t, size_t> myAnsw;
     int x = 0;

@@ -1,6 +1,6 @@
 #include <regex>
-#include "smmPuzzle.hpp"
-#include "smmComuni.hpp"
+#include "..\hpp\smmPuzzle.hpp"
+#include "..\hpp\smmComuni.hpp"
 
 std::pair<size_t, size_t> AoC20_20(std::string myFileName)
 {

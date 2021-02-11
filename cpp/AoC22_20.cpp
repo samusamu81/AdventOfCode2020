@@ -1,8 +1,8 @@
 #include <sstream>
 #include <set>
 #include <map>
-#include "AoC20.hpp"
-#include "smmComuni.hpp"
+#include "..\hpp\AoC20.hpp"
+#include "..\hpp\smmComuni.hpp"
 
 std::string AoC22_20Deck2str(std::deque<int> const& someDeck)
 {

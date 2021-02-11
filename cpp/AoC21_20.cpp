@@ -4,7 +4,7 @@
 #include <sstream>
 #include <string>
 #include <regex>
-#include "smmComuni.hpp"
+#include "..\hpp\smmComuni.hpp"
 
 std::pair<size_t, std::string> AoC21_20(std::string myFileName)
 {

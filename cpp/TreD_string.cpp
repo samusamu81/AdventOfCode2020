@@ -1,5 +1,5 @@
-#include "nDim_string.hpp"
-#include "smmComuni.hpp"
+#include "..\hpp\nDim_string.hpp"
+#include "..\hpp\smmComuni.hpp"
 
 //TreD_string::TreD_string()
 //{

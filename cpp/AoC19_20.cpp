@@ -2,7 +2,7 @@
 #include <map>
 #include <regex>
 #include <sstream>
-#include "smmComuni.hpp"
+#include "..\hpp\smmComuni.hpp"
 
 
 std::pair<size_t, size_t> AoC19_20(std::string myFileName)

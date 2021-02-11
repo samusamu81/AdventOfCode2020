@@ -1,4 +1,4 @@
-#include "smmConsts.hpp"
+#include "..\hpp\smmConsts.hpp"
 
 char smmConst::separator = ' ';
 char smmConst::falseSym = '.';

@@ -1,8 +1,8 @@
 #include <unordered_map>
 #include <map>
 #include <iostream>
-#include "smmComuni.hpp"
-#include "AoC20.hpp"
+#include "..\hpp\smmComuni.hpp"
+#include "..\hpp\AoC20.hpp"
 
 //this takes long! Be patient
 std::pair<size_t, size_t>  AoC15_20(std::string myFileName)

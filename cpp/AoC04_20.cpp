@@ -3,8 +3,8 @@
 #include <map>
 #include <regex>
 #include <iostream>
-#include "smmComuni.hpp"
-#include "AoC20.hpp"
+#include "..\hpp\smmComuni.hpp"
+#include "..\hpp\AoC20.hpp"
 
 bool IsGoodTicket_1st(std::string s)
 {
@@ -88,7 +88,7 @@ bool IsGoodTicket_2nd(std::string s)
 	return true;
 }
 
-std::pair<size_t, size_t> AoC4_20(std::string myFileName)
+std::pair<size_t, size_t> AoC04_20(std::string myFileName)
 {
 	std::vector<std::string> myTickets;
 	std::vector<std::string>::iterator it;

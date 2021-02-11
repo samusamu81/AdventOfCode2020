@@ -2,9 +2,9 @@
 #include<map>
 #include <regex>
 #include <iostream>
-#include "smmComuni.hpp"
-#include "smmComplex.hpp"
-#include "AoC20.hpp"
+#include "..\hpp\smmComuni.hpp"
+#include "..\hpp\smmComplex.hpp"
+#include "..\hpp\AoC20.hpp"
 
 std::set<smmComplex<int>> MustBeFlipped(std::multiset<smmComplex<int>> oldTiles_n_turns)
 {

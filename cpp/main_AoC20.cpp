@@ -3,7 +3,7 @@
 #endif
 
 #include <iostream>
-#include "AoC20.hpp"
+#include "..\hpp\AoC20.hpp"
 
 
 int main(int argc, char* argv[])
@@ -12,39 +12,39 @@ int main(int argc, char* argv[])
     std::pair <size_t, std::string> myAnsw2;
 
     std::cout << "Problema 1 Anno 2020:" << std::endl;
-    myAnsw = AoC1_20();
+    myAnsw = AoC01_20();
     std::cout<< myAnsw.first<<"\t"<<myAnsw.second << std::endl << std::endl;
 
     std::cout << "Problema 2 Anno 2020:" << std::endl;
-    myAnsw = AoC2_20();
+    myAnsw = AoC02_20();
     std::cout << myAnsw.first << "\t" << myAnsw.second << std::endl << std::endl;
 
     std::cout << "Problema 3 Anno 2020:" << std::endl;
-    myAnsw = AoC3_20();
+    myAnsw = AoC03_20();
     std::cout << myAnsw.first << "\t" << myAnsw.second << std::endl << std::endl;
     
     std::cout << "Problema 4 Anno 2020:" << std::endl;
-    myAnsw = AoC4_20();
+    myAnsw = AoC04_20();
     std::cout << myAnsw.first << "\t" << myAnsw.second << std::endl << std::endl;
 
     std::cout << "Problema 5 Anno 2020:" << std::endl;
-    myAnsw = AoC5_20();
+    myAnsw = AoC05_20();
     std::cout << myAnsw.first << "\t" << myAnsw.second << std::endl << std::endl;
 
     std::cout << "Problema 6 Anno 2020:" << std::endl;
-    myAnsw = AoC6_20();
+    myAnsw = AoC06_20();
     std::cout << myAnsw.first << "\t" << myAnsw.second << std::endl << std::endl;
 
     std::cout << "Problema 7 Anno 2020:" << std::endl;
-    myAnsw = AoC7_20();
+    myAnsw = AoC07_20();
     std::cout << myAnsw.first << "\t" << myAnsw.second << std::endl << std::endl;
 
     std::cout << "Problema 8 Anno 2020:" << std::endl;
-    myAnsw = AoC8_20();
+    myAnsw = AoC08_20();
     std::cout << myAnsw.first << "\t" << myAnsw.second << std::endl << std::endl;
     
     std::cout << "Problema 9 Anno 2020:" << std::endl;
-    myAnsw = AoC9_20();
+    myAnsw = AoC09_20();
     std::cout << myAnsw.first << "\t" << myAnsw.second << std::endl << std::endl;
 
     std::cout << "Problema 10 Anno 2020:" << std::endl;
@@ -109,8 +109,10 @@ int main(int argc, char* argv[])
     std::cout << myAnsw.first << "\t" << myAnsw.second << std::endl << std::endl;
     
     std::cout << "Problema 25 Anno 2020:" << std::endl;
-    myAnsw = AoC24_20();
+    myAnsw = AoC25_20();
     std::cout << myAnsw.first << "\t" << myAnsw.second << std::endl << std::endl;
+
+
 
 
     return 0;

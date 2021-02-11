@@ -8,7 +8,7 @@
 #include <string>
 #include <tuple>
 #include <vector>
-#include "smmConsts.hpp"
+#include "..\hpp\smmConsts.hpp"
 
 struct countTrue      //da usare in for_each
 {

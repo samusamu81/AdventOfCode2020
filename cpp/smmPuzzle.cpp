@@ -1,6 +1,6 @@
 
 #include <algorithm>
-#include "smmPuzzle.hpp"
+#include "..\hpp\smmPuzzle.hpp"
 
 void smmPuzzle::insertTile(int tileID, smmTile<char> const& aTile)
 {

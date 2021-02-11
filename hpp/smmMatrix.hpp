@@ -6,7 +6,7 @@
 #include <iostream>
 #include <fstream>
 #include <sstream>
-#include "smmComuni.hpp"
+#include "..\hpp\smmComuni.hpp"
 template <class tipo> class smmMatrix
 {
 public:

@@ -1,6 +1,6 @@
-#include "AoC20.hpp"
-#include "smmComuni.hpp"
-std::pair<size_t, size_t> AoC1_20(std::string myFileName)
+#include "..\hpp\AoC20.hpp"
+#include "..\hpp\smmComuni.hpp"
+std::pair<size_t, size_t> AoC01_20(std::string myFileName)
 {
 	const int FIND_ME = 2020;
 	std::vector<int> myInput;
